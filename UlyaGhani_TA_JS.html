@@ -1,0 +1,66 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UlyaGhani_TA_JS</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/sweetalert2@7.12.15/dist/sweetalert2.min.css'>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div data-aos="fade-up" data-aos-duration="2000">
+            <div id="front-page">
+                <h1 style="display:none;">Welcome to Library MSIB6_WebFullstack#7</h1>
+                <div id="div-input" style="display:none;">  
+                <label>Input Nickname :</label>
+                <input id="nickname" type="text"/>
+            </div>
+        </div>
+        
+        <div id="main-page" style="display:none">
+            <h2>Data List Library MSIB 6 Web Fullstack 7</h2>
+            <a id="add-data" href="#">Tambah Data</a>
+            <br/>
+            <br/>
+            <table width="100%">
+                <thead>
+                <tr>
+                    <th>No</th>
+                    <th>Book Name</th>
+                    <th>Description</th>
+                    <th>Action</th>
+                </tr>
+                </thead>
+                <tbody>
+                </tbody>
+            </table>
+        </div>
+        
+        <div id="detail-page" style="display:none">
+          <h2>Detail Page</h2>
+          <form id="detail-form">
+                <input id="book_id" type="hidden"/>
+                <label>Book Name :</label>
+                <input id="book_name" type="text"/>
+                    <br/>
+                    <br/>
+                <label>Description :</label>
+                <input id="description" type="text"/>
+                    <br/>
+                    <br/>
+                <button type="submit" class="text-primary">Save</button>
+                <button type="reset" class="text-warning">Cancel</button>
+          </form>
+        </div>
+
+    </div>
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@7.12.15/dist/sweetalert2.all.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+</html>

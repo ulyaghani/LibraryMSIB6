@@ -1,0 +1,105 @@
+body {
+    background-color: rgb(241, 140, 24);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} 
+
+#front-page{
+    border: 0;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 3px 3px 10px rgba(0,0,0,0.8);
+    margin: 0;
+    padding: 20px;
+    padding-bottom: 50px;
+    align-items: center;
+    justify-content: center;
+}
+
+input {
+    border-radius: 10px;
+    height: 4%;
+}
+
+#main-page {
+    background-color: white;
+    padding: 20px;
+    margin: 0;
+    border: 0;
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px rgba(0,0,0,0.8);
+}
+
+#add-data {
+    background-color: rgb(255, 111, 0);
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    text-decoration: none;
+    box-shadow: 1px 1px 1px rgba(0,0,0,0.8);
+}
+
+table {
+    border-style: dashed;
+    padding: 5px;
+    text-align: center;
+}
+
+tr {
+    background-color: rgb(255, 203, 82);
+}
+
+#detail-page {
+    background-color: white;
+    padding: 10px;
+    margin: 0;
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px rgba(0,0,0,0.8);
+}
+
+.container {
+    width: 80%;
+    text-align: center;
+}
+
+.text-danger {
+    color: white;
+    background-color: red;
+    border: 0;
+    border-radius: 5px;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 5px;
+    box-shadow: 1px 1px 1px rgba(0,0,0,0.8);
+}    
+
+.text-primary {
+    color: white;
+    background-color: blue;
+    border: 0;
+    border-radius: 5px;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 5px;
+    box-shadow: 1px 1px 1px rgba(0,0,0,0.8);
+}
+
+.text-warning {
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 0);
+    border: 0;
+    border-radius: 5px;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 5px;
+    box-shadow: 1px 1px 1px rgba(0,0,0,0.8);
+}
+
+.text-success {
+    color: white;
+    background-color: green;
+}
